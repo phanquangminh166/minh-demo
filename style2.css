@@ -1,0 +1,18 @@
+.sex,.hobit{
+    display: flex;
+    align-items: center;
+}
+.input{
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.container{
+display: flex;
+justify-content: center;
+
+}
+form{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="list">
+            <li>
+                 <a href="./index.html">HOME</a>   
+            </li>
+
+            <li>
+                    <a href="./hoatdong.html">COLOR BAND</a>   
+            </li>
+
+            
+            
+            <li>
+                <a href="./gioithieu.html">LOVE BAND</a>  
+            </li>
+
+            <li>
+                    <a href="./contact.html">CONTACT</a>
+                    <i class="fas fa-angle-down"></i>
+                    <ul class="subnav">
+                        <li><a href="#">CAPTANT</a></li>
+                        <li><a href="#">MEMBER</a></li>
+                        <li><a href="#">MANAGER</a></li>
+                    </ul>  
+        </li>
+        <li>
+            <a href="./bai1.html">LOG IN</a>   
+    </li>
+    <li>
+        <a href="./bai2.html">
+            REGISTRATION</a>   
+</li>
+        
+         </ul>
+         <div class="search">
+            <i class="fas fa-search"></i>
+         </div>
+    </div>
+    <div class="input">
+        <h2>REGISTRATTION</h2>
+    </div>
+    <div class="container">
+        <form action="" method="post" enctype="multipart/form-data">
+        <div>Name: </div>
+        <input type="text" class="name">
+        <div class="sex">
+            <p>Sex: </p>
+            <input type="radio" checked="checked" name="gioitinh">
+            <p>Male</p>
+            <input type="radio" name="gioitinh">
+            <p>Female</p>
+        </div>
+        <div>IMG:</div>
+        <div class="choose">
+            <input type="file" class="file" placeholder="choose File">
+        </div>
+        <div>Country: </div>
+        <input type="text" name="city" list="cityname" placeholder="vietnam">
+        <datalist id="cityname">
+          <option value="US">
+          <option value="Vietnam">
+        </datalist>
+        <div>Hobit:</div>
+        <div class="hobit">
+            <input type="checkbox">
+            <div>Sport</div>
+            <input type="checkbox">
+            <div>Music</div>
+            <input type="checkbox" checked="checked">
+            <div>Travel</div>
+            <input type="checkbox">
+            <div>Cook</div>
+        </div>
+        <div>Note:</div>
+        <textarea id="story" name="story"
+              rows="5" cols="33">
+    </textarea>
+        <div class="input-output">
+            <input type="submit" value="Log in">
+            <input type="submit" value="REGISTRATTION"> 
+        </div>
+        
+    </form>
+    </div>
+</body>
+</html>
